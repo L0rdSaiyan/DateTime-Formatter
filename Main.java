@@ -11,7 +11,7 @@ public class Main
 		
 		LocalDateTime nao_formatado = LocalDateTime.now();
 		
-		DateTimeFormatter formatado = DateTimeFormatter.ofPattern("DD-mm-YYYY HH:mm:ss");
+		DateTimeFormatter formatado = DateTimeFormatter.ofPattern("dd-MM-yy HH:mm:ss");
 		
 		String data_formatada = nao_formatado.format(formatado);
 		
